@@ -1,4 +1,4 @@
-// Copyright (c) 2017 The PIVX developers
+// Copyright (c) 2017 The Helix developers
 // Copyright (c) 2018 The Phore developers
 // Copyright (c) 2018-2019 The Helix developers
 // Distributed under the MIT/X11 software license, see the accompanying

@@ -1,14 +1,10 @@
 # Copyright (c) 2011 Sam Rushing
-#
-# key.py - OpenSSL wrapper
-#
-# This file is modified from python-bitcoinlib.
-#
-
-"""ECC secp256k1 crypto routines
+"""ECC secp256k1 OpenSSL wrapper.
 
 WARNING: This module does not mlock() secrets; your private keys may end up on
 disk in swap! Use with caution!
+
+This file is modified from python-bitcoinlib.
 """
 
 import ctypes
@@ -88,7 +84,7 @@ def _check_result(val, func, args):
 ssl.EC_KEY_new_by_curve_name.restype = ctypes.c_void_p
 ssl.EC_KEY_new_by_curve_name.errcheck = _check_result
 
-class CECKey(object):
+class CECKey():
     """Wrapper around OpenSSL's EC_KEY"""
 
     POINT_CONVERSION_COMPRESSED = 2

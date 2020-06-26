@@ -74,7 +74,7 @@ if BUILD_BITCOIN_UTILS
   bin_PROGRAMS += helix-cli helix-tx
 endif
 
-.PHONY: FORCE
+.PHONY: FORCE check-symbols check-security
 # helix core #
 BITCOIN_CORE_H = \
   activemasternode.h \
@@ -600,7 +600,7 @@ clean-local:
 	-$(MAKE) -C univalue clean
 	-rm -f leveldb/*/*.gcda leveldb/*/*.gcno leveldb/helpers/memenv/*.gcda leveldb/helpers/memenv/*.gcno
 	-rm -f config.h
-  -rm -rf test/__pycache__
+	-rm -rf test/__pycache__
 
 .rc.o:
 	@test -f $(WINDRES)

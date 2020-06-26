@@ -1,15 +1,11 @@
 #!/usr/bin/env python3
 #
-# bignum.py
-#
-# This file is copied from python-bitcoinlib.
-#
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
-#
+"""Big number routines.
 
-"""Bignum routines"""
-
+This file is copied from python-bitcoinlib.
+"""
 
 import struct
 
@@ -82,7 +78,7 @@ def mpi2bn(s):
         return -v
     return v
 
-# bitcoin-specific little endian format, with implicit size
+# helix-specific little endian format, with implicit size
 def mpi2vch(s):
     r = s[4:]           # strip size
     r = r[::-1]         # reverse string, converting BE->LE

@@ -3580,8 +3580,8 @@ To enable AutoMint add &apos;enablezeromint=1&apos; in helix.conf</source>
         <translation>[テストネット]</translation>
     </message>
     <message>
-        <source>The PIVX Core developers</source>
-        <translation>PIVX コア開発者チーム</translation>
+        <source>The HELIX Core developers</source>
+        <translation>HELIX コア開発者チーム</translation>
     </message>
 </context>
 <context>
@@ -5618,8 +5618,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Helix Alert&quot; admin@foo.co
         <translation>ロストしたアキュムレータを計算しています...</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The PIVX Core Developers</source>
-        <translation>Copyright (C) 2015-%i PIVX コア開発者チーム</translation>
+        <source>Copyright (C) 2015-%i The HELIX Core Developers</source>
+        <translation>Copyright (C) 2015-%i HELIX コア開発者チーム</translation>
     </message>
     <message>
         <source>Copyright (C) 2017-%i The Helix Core Developers</source>

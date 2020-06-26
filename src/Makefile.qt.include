@@ -390,15 +390,15 @@ RES_ICONS = \
   qt/helix/res/img/ic-radio-liliac-on.svg \
   qt/helix/res/img/img-empty-staking-off.svg \
   qt/helix/res/img/ic-arrow-drop-down.svg \
-  qt/helix/res/img/ic-coin-piv.svg \
+  qt/helix/res/img/ic-coin-hlix.svg \
   qt/helix/res/img/ic-receive-off.svg \
   qt/helix/res/img/img-empty-staking-on.svg \
   qt/helix/res/img/ic-arrow-drop-up-white.svg \
-  qt/helix/res/img/ic-coin-zpiv.png \
+  qt/helix/res/img/ic-coin-zhlix.png \
   qt/helix/res/img/ic-receive-on.svg \
   qt/helix/res/img/img-empty-transactions.svg \
   qt/helix/res/img/ic-arrow-drop-up.svg \
-  qt/helix/res/img/ic-coin-zpiv.svg \
+  qt/helix/res/img/ic-coin-zhlix.svg \
   qt/helix/res/img/ic-received.svg \
   qt/helix/res/img/img-logo-helix.png \
   qt/helix/res/img/ic-arrow-drop-white-down.svg \

@@ -1,3 +1,4 @@
+.gitignore
 *.sublime-project
 *.sublime-workspace
 .vscode
@@ -11,6 +12,7 @@ src/helix
 src/helixd
 src/helix-cli
 src/helix-tx
+src/bench/bench_helix
 src/test/test_helix
 src/qt/test/test_helix-qt
 
@@ -45,13 +47,13 @@ share/setup.nsi
 share/qt/Info.plist
 contrib/devtools/split-debug.sh
 
+src/univalue/gen
+
 src/qt/*.moc
 src/qt/moc_*.cpp
 src/qt/forms/ui_*.h
 
 src/qt/test/moc*.cpp
-
-src/leveldb/build_config.mk
 
 .deps
 .dirstamp
@@ -64,6 +66,7 @@ src/leveldb/build_config.mk
 *.pyc
 *.o
 *.o-*
+*.patch
 .helix
 *.a
 *.pb.cc
@@ -74,7 +77,6 @@ src/leveldb/build_config.mk
 *.dmg
 
 *.json.h
-!accumulatorcheckpoints.json.h
 *.raw.h
 
 #libtool object files
@@ -84,8 +86,9 @@ src/leveldb/build_config.mk
 # Compilation and Qt preprocessor part
 *.qm
 Makefile
-helix-qt
-helix-Qt.app
+Helix-qt
+Helix-Qt.app
+background.tiff*
 
 # Unit-tests
 Makefile.test
@@ -113,15 +116,16 @@ coverage_percent.txt
 linux-coverage-build
 linux-build
 win32-build
+test/config.ini
+test/cache/*
 qa/pull-tester/run-bitcoind-for-test.sh
 qa/pull-tester/tests-config.sh
 qa/pull-tester/cache/*
 qa/pull-tester/test.*/*
+cache/*
 
-# Generated images
-background.tiff
-background.tiff.png
-background.tiff@2x.png
+!src/leveldb*/Makefile
+
 
 .cproject
 .project

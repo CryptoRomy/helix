@@ -1,9 +1,9 @@
-// Copyright (c) 2018 The PIVX developers
+// Copyright (c) 2018 The Helix developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef HELIX_SPENDTYPE_H
-#define HELIX_SPENDTYPE_H
+#ifndef Helix_SPENDTYPE_H
+#define Helix_SPENDTYPE_H
 
 #include <cstdint>
 
@@ -16,4 +16,4 @@ namespace libzerocoin {
     };
 }
 
-#endif //PIVX_SPENDTYPE_H
+#endif //Helix_SPENDTYPE_H
